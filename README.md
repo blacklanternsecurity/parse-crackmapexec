@@ -32,19 +32,19 @@ optional arguments:
 
 
 ## Example:
-Run CrackMapExec
-~~~
-# cme smb <host_list> -u <username> -p <password> -x 'sc query | findstr /i "symantec malwarebytes"'
-~~~
-Parse output from multiple files and write results to CSV file
-~~~
-$ ./parse_cme.py output1.txt output2.txt -w test0.csv
+1. Run CrackMapExec
+	~~~
+	# cme smb <host_list> -u <username> -p <password> -x 'sc query | findstr /i "symantec malwarebytes"'
+	~~~
+2. Parse output from multiple files and write results to CSV file
+	~~~
+	$ ./parse_cme.py output1.txt output2.txt -w test0.csv
 
-Hosts Analyzed:   652
+	Hosts Analyzed:   652
 
-     Service             Total               Workstations        Servers             Undetermined        
-=========================================================================================================
-     Symantec            624/652 (95.7%)     536/557 (96.2%)     16/19 (84.2%)       72/76 (94.7%)
-     Altiris             554/652 (85.0%)     533/557 (95.7%)     13/19 (68.4%)       8/76 (10.5%)
-     Malwarebytes        9/652 (1.4%)        3/557 (0.5%)        6/19 (31.6%)        0/76 (0.0%)
-~~~
+	     Service             Total               Workstations        Servers             Undetermined        
+	=========================================================================================================
+	     Symantec            624/652 (95.7%)     536/557 (96.2%)     16/19 (84.2%)       72/76 (94.7%)
+	     Altiris             554/652 (85.0%)     533/557 (95.7%)     13/19 (68.4%)       8/76 (10.5%)
+	     Malwarebytes        9/652 (1.4%)        3/557 (0.5%)        6/19 (31.6%)        0/76 (0.0%)
+	~~~
