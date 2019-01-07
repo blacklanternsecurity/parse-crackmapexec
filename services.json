@@ -1,0 +1,6 @@
+{
+    "_friendly_name_":  "case-insensitive string Windows service name",
+    "Symantec":         "SYMANTEC ENDPOINT PROTECTION",
+    "Altiris":          "SYMANTEC MANAGEMENT AGENT",
+    "Malwarebytes":     "MALWAREBYTES"
+}
