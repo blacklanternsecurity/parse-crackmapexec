@@ -48,3 +48,9 @@ optional arguments:
 	     Altiris             554/652 (85.0%)     533/557 (95.7%)     13/19 (68.4%)       8/76 (10.5%)
 	     Malwarebytes        9/652 (1.4%)        3/557 (0.5%)        6/19 (31.6%)        0/76 (0.0%)
 	~~~
+
+## License
+
+Copyright (C) 2019 Black Lantern Security
+
+Licensed under the GNU Affero General Public License v3.0 or later (`AGPL-3.0-or-later`). See [LICENSE](LICENSE).
